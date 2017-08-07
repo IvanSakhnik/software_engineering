@@ -1,0 +1,27 @@
+PROGRAM PROG;
+
+BEGIN
+
+01: A:=10;
+B:=20;
+
+MYPROC (A, B);
+
+
+GOTO 01;
+
+LINK C, 15;
+
+(*******   ***
+
+	Hello world!!!
+* **)
+
+IN 55;
+OUT 755;
+
+RETURN;
+
+($ CODE $)
+
+END;
